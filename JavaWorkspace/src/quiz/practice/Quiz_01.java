@@ -1,4 +1,4 @@
-package quiz;
+package quiz.practice;
 
 public class Quiz_01 {
     public static void main(String[] args) {
