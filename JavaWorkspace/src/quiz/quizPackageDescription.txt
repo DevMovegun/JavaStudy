@@ -1,0 +1,11 @@
+### quiz package description ###
+
+# question package
+- 각 챕터별 퀴즈의 설명, 퀴즈 조건, 예상 실행결과가 있는 png 파일
+
+# practice package
+- 퀴즈를 보고 퀴즈 풀이 강의를 듣기 전에 혼자 작성한 파일
+
+# answer package
+- 강사님의 모범 답안을 정리해서 쓴 파일
+- answer 가 없는 챕터는 practice 에서 혼자 작성한 파일과 거의 동일한 경우 answer 를 작성하지 않음

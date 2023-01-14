@@ -1,0 +1,8 @@
+### lecture package description ###
+
+# chap_xx package 내 Java Class
+- 강의 중 기존에 알지 못했거나, 제대로 쓸 줄 몰랐던 부분이 있을 때만 class 생성
+
+# chap_xx.txt 파일
+- 각 챕터 강의 때 설명했던 IntelliJ 단축키 혹은 tip 모음
+- Java Class 생성까진 아니지만 도움 될 정보들 모음
