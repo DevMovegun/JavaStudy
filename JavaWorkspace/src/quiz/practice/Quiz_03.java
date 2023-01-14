@@ -9,7 +9,7 @@ public class Quiz_03 {
 
         // 주민번호 변수
         String id01 = Integer.toString(birthDate01).concat("-").concat(Integer.toString(behindNum01));
-        String id02 = "030708-4567890";
+        String id02 = "030708" + "-" + "4567890";
 
         // 성별을 나타내는 숫자의 index 를 기억하는 변수
         int sexIndex = id01.indexOf("-") + 1;
