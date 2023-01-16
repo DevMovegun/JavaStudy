@@ -1,0 +1,35 @@
+### Chap_04 제어문 tip ###
+
+# switch case 문에 break 여부 활용
+- case 는 나누어야 하지만 해당 동작이 중복일 경우, case 만 나누고 break 없이 넘기면 됨
+- 같은 조건을 중복해서 실행해야 한다면 break 를 빼고 작성
+- chap_04.SwitchBreak.java 확인
+
+# Alt 를 누른채로 변경
+sout("환영합니다 코나입니다.")
+sout("환영합니다 코나입니다.")
+sout("환영합니다 코나입니다.")
+
+- 위와 같은 예시에서 코나를 바꿀 경우 일일히 바꾸지 않고 alt 를 누른채로 바꿀 부분 드래그 후 변경하면 한번에 바뀜
+
+sout("환영합니다 나코입니다.")
+sout("환영합니다 나코입니다.")
+sout("환영합니다 나코입니다.")
+
+# fori + enter
+- 기본형태의 for 문을 만들어주는 단축키
+- 형태 for (int i = 0; i < ; i++) {
+
+      }
+
+# System.out.print()
+- System.out.println() 에서 ln 을 뺀 형태
+- 줄바꿈 하지 않고 이어서 출력
+- System.out.println(); 만 쓸 경우 줄바꿈만 실행
+
+# Ctrl + F2
+- 무한 루프에 빠졌을 경우 강제 종료 시키는 단축키
+- Run 창에서 stop 버튼을 눌러도 됨
+
+# break
+- break; 를 만나면 if 제어문을 제외하고 해당 break 가 쓰여진 중괄호 밖으로 빠져나감
