@@ -1,0 +1,11 @@
+### Chap_05 배열 tip ###
+
+# foreach + enter
+- for-each 문의 기본 형태를 추가해준다.
+- 형태 for (:
+           ) {
+      }
+
+# 기본 for 문과 foreach 문의 사용 차이
+- 기본 for 문은 요소의 값을 쓰고 싶을 때 사용
+- foreach 문은 모든 요소 값을 순회하고 싶을 때 사용
