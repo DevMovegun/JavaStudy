@@ -1,0 +1,71 @@
+### Chap_07 클래스 tip ###
+
+# 객체 지향 프로그래밍 (OOP : Object-Oriented Programming)
+- 유지보수 용이
+- 높은 재사용성
+
+# class 사용 의미
+- 객체 지향 프로그래밍에 적합
+- 배열은 같은 자료형만 담을 수 있어서 다른 자료형이 섞일 경우 유용하지 못함
+
+# instance 변수와 class 변수 // PracticeClass.java 의 코드 참조
+- class 변수는 class 내에 static 으로 선언된 변수를 칭함
+- class 변수가 변경되면 해당 class 의 모든 instance 객체들의 해당 class 변수가 같이 변경됨.
+- instance 변수가 저장하고 있는 값이 변경되면 해당 instance 객체가 저장하고 있는 instance 변수의 값만 변경되고 다른 instance 객체들의 변수가 저장하고 있는 값은 변경되지 않음
+- class 변수를 접근할때는 객체.클래스변수 로 접근하기 보단, 클래스.클래스변수로 접근하는 것이 좋음
+
+# method overloading 할때
+- 오버로딩 메소드는 원형 메소드를 호출해서 작동하는 것이 유지보수에 좋음
+
+# class method
+- class method 안에서는 instance 변수는 사용 불가하고 class 변수는 사용 가능함
+- class method, class 변수는 class 가 생성될 때 같이 생성되므로 사용이 가능
+- instance 변수는 class 를 이용한 객체를 만들 때 생성되므로 사용이 불가능
+- instance 변수를 사용하지 않고 작동되거나, 전달받은 값만 가지고 동작될 때 고려
+
+# this()
+- 기본 생성자 호출
+
+# String.isEmpty()
+- String 변수가 저장하고 있는 값이 "" 빈 문자열일때 true 반환
+
+# Access Modifier 접근 제어자
+- private : 해당 클래스 내에서만 접근 가능
+- public : 모든 클래스에서 접근 가능
+- default : (아무것도 적지 않았을 때) 같은 패키지 내에서만 접근 가능
+- protected : 같은 패키지 내에서는 접근 가능, 다른 패키지인 경우 자식 클래스에서만 접근 가능
+
+# Alt+Insert
+- Getter, Setter, toString() 등 자주 쓰이는 메소드들을 자동으로 완성 시켜줌
+
+# Getter, Setter
+- 접근 제어자로 인해 다른 클래스에서 접근이 불가능 할 경우 사용
+- 변수에 직접 접근을 막고 메소드를 통해 접근을 하여 제 3자가 발생시키는 의도치 않은 문제를 예방할 수 있음
+
+# Ctrl+R
+- 검색 기능
+- 검색한 단어 밑에 다른 단어를 입력한 뒤 replace 를 누르면 모든 단어가 바뀜
+
+# default class
+- class 도 아무런 접근 제어자를 설정하지 않을 경우 default class 가 됨
+- class 내 변수와 마찬가지로 default class 일 경우 다른 package 에서 접근 불가능
+
+# 자바 파일 내의 클래스
+- public class 로 정의하게 되는 경우 반드시 java file 이름이랑 똑같아야 함
+
+# 캡슐화 (Encapsulation), 정보은닉 (Information hiding)
+- 캡슐화 : 서로 연관되어 있는 기능, 데이터 등을 하나의 클래스로 정의
+- 정보은닉 : 다른 클래스 또는 패키지에서 중요한 정보에 직접적인 접근을 막고 Getter, Setter 같이 허용한 방법으로만 쓸 수 있게 하는 방식
+
+# package
+- 다른 package 에 있는 클래스를 사용하려면 import package.Class; 로 정의 해야함
+- 해당 package 안에 있는 모든 클래스를 사용하려면 import package.*; 로 정의 하면 사용 가능
+
+# Random
+- Random class 객체를 선언하고 객체이름.nextInt(); 하면 int 범위 내에서 정수형 값 반환
+- 객체이름.nextInt(정수); 하면 0이상 정수미만의 정수형 값 중 랜덤으로 반환
+- .nextInt(), .nextDouble(), .nextBoolean() ...
+- Double 도 마찬가지이지만 범위값은 지정을 할 수 없지만 밑에 참조
+- (min + (max - min) * rand.nextDouble()); 하게 되면 min 이상 max 미만의 실수형 값을 범위 지정할 수 있음
+
+#
