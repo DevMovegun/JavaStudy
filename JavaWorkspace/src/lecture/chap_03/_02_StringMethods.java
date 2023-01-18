@@ -1,6 +1,6 @@
 package lecture.chap_03;
 
-public class StringMethods02 {
+public class _02_StringMethods {
     public static void main(String[] args) {
 
         String s = "I like Java and Python and C.";

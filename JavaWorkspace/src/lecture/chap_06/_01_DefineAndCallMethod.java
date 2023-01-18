@@ -1,6 +1,6 @@
 package lecture.chap_06;
 
-public class DefineAndCallMethod {
+public class _01_DefineAndCallMethod {
 
     // 기본 메소드 정의
     public static void sayHello() {

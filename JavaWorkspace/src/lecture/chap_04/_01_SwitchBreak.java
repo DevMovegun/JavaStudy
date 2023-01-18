@@ -1,6 +1,6 @@
 package lecture.chap_04;
 
-public class SwitchBreak {
+public class _01_SwitchBreak {
     public static void main(String[] args) {
         
         // case 조건은 나눠야 하지만, 해당 동작이 중복이 될 때 예시

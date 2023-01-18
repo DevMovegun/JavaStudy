@@ -1,8 +1,6 @@
 package lecture.chap_07;
 
-import java.util.Random;
-
-public class StudyClassWithWhiteBox {
+public class _02_StudyClassWithWhiteBox {
 
     // WhiteBox.java 참조
 

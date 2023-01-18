@@ -1,9 +1,8 @@
-package lecture.chap_08;
+package lecture.chap_07_01;
 
 // package 가 다른 경우를 실험하기 위한 클래스
 
 import lecture.chap_07.*; // lecture.chap_07 에 있는 모든 클래스 사용 가능
-
 //import lecture.chap_07.WhiteBox;
 public class AccessModifierTest {
     public static void main(String[] args) {

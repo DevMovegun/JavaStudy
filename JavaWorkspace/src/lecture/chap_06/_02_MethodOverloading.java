@@ -1,6 +1,6 @@
 package lecture.chap_06;
 
-public class MethodOverloading {
+public class _02_MethodOverloading {
     public static int getPower(int number) {
         // return number * number // 원형
         return getPower(number, 2); // 메소드 내에서 오버로딩된 메소드를 호출 할 수 있음.

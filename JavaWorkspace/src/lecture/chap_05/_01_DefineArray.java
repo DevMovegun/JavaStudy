@@ -1,6 +1,6 @@
 package lecture.chap_05;
 
-public class DefineArray {
+public class _01_DefineArray {
     public static void main(String[] args) {
 
         // 1차원 배열 선언 방법

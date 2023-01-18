@@ -1,6 +1,6 @@
 package lecture.chap_07;
 
-public class PracticeEnum {
+public class _08_PracticeEnum {
     public static void main(String[] args) {
         // 열거형 (Enum)
         // 달력 : 1월, 2월, 3월 ..

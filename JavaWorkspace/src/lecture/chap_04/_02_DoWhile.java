@@ -1,6 +1,6 @@
 package lecture.chap_04;
 
-public class DoWhile {
+public class _02_DoWhile {
     public static void main(String[] args) {
 
         int move = 0;

@@ -1,6 +1,6 @@
 package lecture.chap_07;
 
-public class StudyClassWithBlackBox {
+public class _01_StudyClassWithBlackBox {
 
     // BlackBox.java 참조
 

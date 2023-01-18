@@ -1,6 +1,6 @@
 package lecture.chap_05;
 
-public class Theater {
+public class _03_Theater {
     public static void main(String[] args) {
 
         // 세로 10 x 가로 15 에 해당하는 영화관 좌석

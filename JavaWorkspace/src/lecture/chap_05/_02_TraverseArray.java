@@ -1,6 +1,6 @@
 package lecture.chap_05;
 
-public class TraverseArray {
+public class _02_TraverseArray {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package lecture.chap_02;
 
-public class TernaryOperator {
+public class _01_TernaryOperator {
     public static void main(String[] args) {
 
         int x = 5;

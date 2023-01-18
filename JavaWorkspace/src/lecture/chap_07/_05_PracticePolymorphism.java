@@ -4,7 +4,7 @@ import lecture.chap_07.camera.Camera;
 import lecture.chap_07.camera.FactoryCamera;
 import lecture.chap_07.camera.SpeedCamera;
 
-public class PracticePolymorphism {
+public class _05_PracticePolymorphism {
     public static void main(String[] args) {
         // 다형성
 

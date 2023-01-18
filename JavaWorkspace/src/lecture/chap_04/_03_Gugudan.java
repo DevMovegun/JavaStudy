@@ -1,6 +1,6 @@
 package lecture.chap_04;
 
-public class Gugudan {
+public class _03_Gugudan {
     public static void main(String[] args) {
 
         for (int i = 1; i < 10; i++) {

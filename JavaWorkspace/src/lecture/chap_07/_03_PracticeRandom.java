@@ -2,7 +2,7 @@ package lecture.chap_07;
 
 import java.util.Random;
 
-public class PracticeRandom {
+public class _03_PracticeRandom {
     public static void main(String[] args) {
         Random rand = new Random();
         System.out.println("랜덤 정수 : " + rand.nextInt()); // int 의 범위 내에서 정수형 값 반환

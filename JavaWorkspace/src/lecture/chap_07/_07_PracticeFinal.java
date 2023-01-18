@@ -3,7 +3,7 @@ package lecture.chap_07;
 import lecture.chap_07.camera.ActionCamera;
 import lecture.chap_07.camera.SlowActionCamera;
 
-public class PracticeFinal {
+public class _07_PracticeFinal {
     public static void main(String[] args) {
         // Final
         ActionCamera actionCamera = new ActionCamera();

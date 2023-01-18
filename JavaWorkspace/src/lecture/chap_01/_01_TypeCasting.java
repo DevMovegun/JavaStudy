@@ -1,6 +1,6 @@
 package lecture.chap_01;
 
-public class TypeCasting {
+public class _01_TypeCasting {
     public static void main(String[] args) {
 
         // int 형을 String 으로 변환하는 2가지 방법

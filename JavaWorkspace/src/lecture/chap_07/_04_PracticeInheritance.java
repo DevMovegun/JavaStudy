@@ -4,7 +4,7 @@ package lecture.chap_07;
 
 import lecture.chap_07.camera.*;
 
-public class PracticeInheritance {
+public class _04_PracticeInheritance {
     public static void main(String[] args) {
         // 상속
         Camera camera = new Camera();

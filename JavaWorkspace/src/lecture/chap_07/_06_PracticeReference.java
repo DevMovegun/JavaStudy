@@ -2,7 +2,7 @@ package lecture.chap_07;
 
 import lecture.chap_07.camera.Camera;
 
-public class PracticeReference {
+public class _06_PracticeReference {
     public static void main(String[] args) {
         // 참조
         // 기본 자료형 (Primitive Data Types) : int, float, double, long, boolean ...

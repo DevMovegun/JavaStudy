@@ -1,6 +1,6 @@
 package lecture.chap_03;
 
-public class StringMethods03 {
+public class _03_StringMethods {
     public static void main(String[] args) {
 
         // 문자열 비교
